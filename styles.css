@@ -1,25 +1,72 @@
-body{
-  font-family: Arial, sans-serif;
-  line-heighgrt:1.6;;
-  margin: 0;
-  padding: 0;
-  background-color:
-    }
-header{
-  background-color:
-    color:
-padding: 1rem 0;
-text-aling: center;
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: white;
+    color: black;
 }
 
-headerh1{
-  margin:0;
-}
-section{
-  padding: 2rem;
-  margin: 2rem 
-  max-width:
-  background color
-  box shadow:
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
+.section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.business-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+form label {
+    font-weight: bold;
+    color: black;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: gray;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
