@@ -30,21 +30,14 @@ header h1{
 section h2{
     margin-top: 0;
 }
-
-.image-section {
-    text-align: center;
+form{
+    display: flex;
+    flex-direction: column;
 }
 
-.business-image {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid black;
-    border-radius: 5px;
-}
 
 form label {
-    font-weight: bold;
-    color: black;
+    margin-top: 1rem;
 }
 
 form input, form textarea {
