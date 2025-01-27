@@ -35,38 +35,36 @@ form{
     flex-direction: column;
 }
 
-
 form label {
     margin-top: 1rem;
 }
 
 form input, form textarea {
-    width: 100%;
-    padding: 8px;
-    margin: 5px 0 10px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: white;
-    color: black;
+    width: 100%
 }
 
 form button {
-    padding: 10px 15px;
+    padding: 0.7 rem;
     background-color: black;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 1rem;
 }
 
 form button:hover {
     background-color: gray;
 }
 
-.footer {
+footer {
     text-align: center;
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 1rem 0;
     margin-top: 20px;
 }
